@@ -35713,6 +35713,7 @@
 	    }
 	    return _react2.default.createElement(_calendar2.default, {
 	      ref: 'calendar',
+	      autobind: false,
 	      locale: this.props.locale,
 	      dateFormat: this.props.dateFormatCalendar,
 	      selected: this.props.selected,

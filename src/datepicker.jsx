@@ -133,6 +133,7 @@ var DatePicker = React.createClass({
     }
     return <Calendar
         ref="calendar"
+        autobind={false}
         locale={this.props.locale}
         dateFormat={this.props.dateFormatCalendar}
         selected={this.props.selected}
